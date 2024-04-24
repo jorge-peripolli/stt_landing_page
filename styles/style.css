@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    font-family: 'Circular Std', sans-serif;
+    background-color:whitesmoke;
+}
+
+#logo{
+    width: 70px;
+    border-radius: 5px;
+
+}
+#container{
+    background-image: url(/assets/images/fundo.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 10px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(255, 255, 204, 0.5);
+    height: 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+#titulo{
+    color:#606060   ;
+}
+
+select{
+    margin-right: 10px;
+}
+
+#botão_login{
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+button{
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #808080; /* Altera a cor de fundo quando o mouse passa sobre o botão */
+}
+
+
+#main{
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+
+#titulo-principal{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#sub-titulo-1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#sub-titulo-2{
+    font-size: 25px;
+    font-weight: 250;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+#email{
+    padding: auto;
+    font-size: 20px;
+    width:400px;
+    border-radius: 5px;
+}
+
+#cadastrar{
+    margin-left:10px;
+    border-radius: 5px;
+}
+
+#box-container{
+    height: 500px;
+    margin-top: 120px;    
+    background-image: url(/assets/images/wp5608262.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box-info{
+    display: flex;
+    flex-direction: row;
+    color: rgb(4, 3, 68);
+    font-size: 18px;
+    align-items: left;
+    padding: 40px;
+    justify-content: left;
+}
